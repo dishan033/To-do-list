@@ -4,7 +4,7 @@ A simple and interactive to-do list application built with vanilla **HTML**, **C
 
 ## 🚀 Live Demo
 
-[View Live Project](https://dishan033.github.io/Flip-a-coin/)
+[View Live Project](https://dishan033.github.io/To-do-list/)
 
 ## 📸 Screenshot
 
