@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
+<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+    </head>
+
+<body>
+    <div class="containor">
+
+        <h1 class="text-center">To Do List </h1>
+
+        <div class="d-flex align-items-center justify-content-center w-100">
+        <input type="text" class="p-2 ps-3 rounded border-0 mx-1 w-50" placeholder="Add the task" id="inputTask">
+        <input type="button" id="addTaskButton"  class="btn btn-light py-2" value="Add">
+        </div>
+        <div id="ul-container" >
+            <ul  class="ul-container" >
+            </ul>
+            <p id="completeMessage" class="text-light fw-bold text-center mt-1 m-0"></p>
+
+        </div>
+   <p class="footer">Developed By Dishan Poojari</p>
+    </div>
+</body>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+
+</html>
